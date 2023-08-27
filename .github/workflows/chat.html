@@ -74,7 +74,7 @@ aside{
             var oUserInfo = JSON.parse(strUserInfo);
             getAddress(oUserInfo.latitude, oUserInfo.longitude);
             if(oUserInfo===null){
-              window.location.replace("http://localhost:3000");
+              window.location.replace("https://shakilchy.github.io/Chirpy/");
             }
             $('#user').text(oUserInfo.userId);
             $('#lat').text(oUserInfo.latitude);
