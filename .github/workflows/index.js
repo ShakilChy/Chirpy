@@ -5,7 +5,7 @@ var http = require('http').createServer(app);
 var io = require('socket.io')(http);
 var formidable = require('formidable');
 
-http.listen(3000, () => {
+http.listen(https://shakilchy.github.io/Chirpy/, () => {
     console.log('Chirpy Server is Ready \nURL:https://shakilchy.github.io/Chirpy/ \nHappy Chirping');
 });
 
